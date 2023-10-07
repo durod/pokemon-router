@@ -1,0 +1,95 @@
+
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+}
+
+.containerHome h2{
+    margin-top: 2rem;
+}
+.homePikachu{
+    width: 25rem;
+    height: 25rem;
+    margin-top: 2rem;
+}
+
+.cajaHome{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+.cajasvistapokemons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    align-items: center;
+}
+
+.cajasvistapokemons h2{
+    margin-top: 2rem;
+}
+
+.cajaselect{
+    display: flex;
+    flex-direction: column;    
+    align-items: center; 
+    margin-top: 1rem;
+}
+
+main{
+    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.cajacard{
+    width: 60%;
+    height: 60vh;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    color: aliceblue;
+}
+.imgcardpokemon{
+    width: 80%;
+    height: 80%;
+}
+.infopokemoncard{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-right: 10px;
+    height: 42%;
+    width: 40%;
+    background-color: mediumseagreen;
+    color: black;
+}
+.namepokemoninfo{
+    display: flex;    
+    color: wheat;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.tipoinfo{
+    display: flex;
+    justify-content: center;
+    border: 1px black solid;
+    width: auto;
+    border-radius: 25px;
+    background-color:steelblue;
+    
+}

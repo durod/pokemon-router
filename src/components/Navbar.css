@@ -1,0 +1,14 @@
+
+.active{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.NavLink-margin {
+    margin-right: 10px; 
+  }
+  
+  .NavLink-margin:last-child {
+    margin-right: 0; 
+  }
+  
